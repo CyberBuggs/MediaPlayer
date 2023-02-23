@@ -9,9 +9,9 @@
 body {
     background-color: black;
 }
-.mainCircleWrrapperinner{
+/* .mainCircleWrrapperinner{
     
-}
+} */
 .mianWrraperOuter{
     position: fixed;
     height: 100%;
@@ -47,7 +47,10 @@ body {
     position: absolute;
     transform-origin: 0% 100%;
 }
-
+.slice:nth-child(1):hover{
+    position: fixed;
+    z-index: 2;
+}
 .slice:nth-child(1) {
     background-color: #F6623E;
     transform: rotate(0deg) skewY(var(--skewy));
